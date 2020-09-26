@@ -313,3 +313,11 @@ p {
 .BestFeature_image4 {
   padding-bottom: 7px;
 }
+
+.BestFeature_element {
+  width: 85px;
+  height: 6px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
