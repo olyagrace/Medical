@@ -213,6 +213,10 @@ p {
   background-color: #37c3a8;
 }
 
+.chooseUs {
+  background-color: #ffffff;
+}
+
 .chooseUs_content {
   padding-top: 120px;
 }
@@ -293,6 +297,7 @@ p {
   font-size: 50px;
   padding-top: 45px;
   padding-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .BestFeature-block_subtitle {
@@ -368,4 +373,55 @@ p {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.OurDoctor {
+  background-color: #ffffff;
+}
+
+.OurDoctor-content {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.OurDoctor_title {
+  font-size: 40px;
+  font-family: 'Montserrat Bold';
+  color: #3a3a3a;
+  padding-bottom: 40px;
+}
+
+.OurDoctor_subtitle {
+  font-family: 'Montserrat Medium';
+  color: #4b4a4a;
+}
+
+.OurDoctor-elements {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+
+.doctor_item {
+  text-align: center;
+}
+
+.doctor-image {
+  max-width: 100%;
+  padding-bottom: 30px;
+}
+
+.doctor_title {
+  font-size: 25px;
+  font-family: 'Montserrat Medium';
+}
+
+.doctor_subtitle {
+  font-size: 16px;
+  font-family: 'Montserrat Medium';
+}
+
+.social-media {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
