@@ -469,13 +469,16 @@ p {
 }
 
 footer {
-  background-color: #ed8ad1;
+  background-color: #171717;
+}
+
+.footer-block {
+  position: relative;
 }
 
 .footer-content {
   padding-top: 100px;
-  padding-bottom: 100px;
-  justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 .footer_title {
@@ -487,7 +490,11 @@ footer {
 }
 
 .footer-social {
-  margin-right: 15px;
+  margin-right: 10px;
+}
+
+.footer_link {
+  color: #707070;
 }
 
 .row {
@@ -514,6 +521,7 @@ footer {
 .contacts-list_item {
   display: flex;
   margin-bottom: 50px;
+  align-items: center;
 }
 
 .contacts-list_ico {
@@ -522,4 +530,38 @@ footer {
 
 .information_item {
   padding-bottom: 15px;
+}
+
+.form-content {
+  width: 230px;
+}
+
+.input {
+  display: flex;
+  margin-bottom: 25px;
+  color: #ffffff;
+  width: 100%;
+  padding: 0 0 10px 0;
+  border: none;
+  border-bottom: 1px solid #707070;
+  background: transparent;
+  outline: none;
+}
+
+.input_text {
+  height: 100px;
+  padding-bottom: 70px;
+}
+
+.brif_button {
+  height: 45px;
+  width: 165px;
+  background-color: #1a9bdc;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Montserrat Medium';
+}
+
+.button_subtitle {
+  color: #ffffff;
 }
