@@ -434,6 +434,47 @@ p {
   padding-bottom: 30px;
 }
 
+@media (max-width: 1200px) {
+  .OurDoctor-elements {
+    padding-top: 60px;
+  }
+  .OurDoctor-content {
+    padding-top: 125px;
+    padding-bottom: 85px;
+  }
+  .OurDoctor_title {
+    padding-bottom: 30px;
+  }
+  .social-media {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .doctor-image {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .OurDoctor-elements {
+    padding-top: 40px;
+  }
+  .OurDoctor-content {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .OurDoctor_title {
+    padding-bottom: 20px;
+    font-size: 35px;
+  }
+  .social-media {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .doctor-image {
+    padding-bottom: 15px;
+  }
+}
+
 .QuickActionBar {
   background-color: #e2e2e2;
 }
@@ -473,6 +514,8 @@ p {
   .action-bar_content {
     display: block;
     text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
   .action-bar_button {
     margin-top: 20px;
