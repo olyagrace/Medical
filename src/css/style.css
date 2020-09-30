@@ -290,14 +290,18 @@ p {
 
 .BestFeature-block {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 150px;
-  padding-bottom: 160px;
+  padding-bottom: 150px;
 }
 
 .BestFeature-block_item {
   color: #ffffff;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
 }
 
 .BestFeature-block_title {
@@ -313,6 +317,7 @@ p {
   font-family: 'Montserrat Medium';
   font-size: 25px;
   margin-top: 30px;
+  justify-content: center;
 }
 
 .BestFeature_image2 {
@@ -333,6 +338,52 @@ p {
   background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+  .BestFeature-block {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .BestFeature-block_item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .BestFeature-block {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .BestFeature-block_title {
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .BestFeature-block_subtitle {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .BestFeature_element {
+    width: 65px;
+    height: 6px;
+  }
+  .BestFeature_image1 {
+    max-width: 30%;
+    padding-bottom: 1.5px;
+  }
+  .BestFeature_image2 {
+    max-width: 30%;
+    padding-bottom: 1px;
+  }
+  .BestFeature_image3 {
+    padding-bottom: 15px;
+    max-width: 30%;
+  }
+  .BestFeature_image4 {
+    max-width: 30%;
+  }
 }
 
 .Gallery {
@@ -413,12 +464,11 @@ p {
     margin: auto;
     display: block;
   }
-}
-
-.gallery_new-box {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
+  .gallery_new-box {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
 }
 
 .OurDoctor {
