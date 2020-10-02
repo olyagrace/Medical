@@ -188,6 +188,7 @@ p {
   padding-bottom: 30px;
   font-family: 'Montserrat Bold';
   font-size: 25px;
+  margin-bottom: 0;
 }
 
 .services_subtitle {
@@ -197,6 +198,7 @@ p {
 
 .services-block {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -219,6 +221,29 @@ p {
 
 .item4 {
   background-color: #37c3a8;
+}
+
+@media (max-width: 1200px) {
+  .services_content {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .services_title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services_content {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 90%;
+  }
+  .services_title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 
 .chooseUs {

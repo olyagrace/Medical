@@ -14,13 +14,14 @@
         padding-bottom: 30px
         font-family: 'Montserrat Bold'
         font-size: 25px
+        margin-bottom: 0
     &_subtitle
         
         font-family: 'Montserrat Medium'
         text-align: center
     &-block
         display: flex
-        // flex-wrap: wrap
+        flex-wrap: wrap
         justify-content: center
         &_item
             width: 25%
@@ -35,3 +36,21 @@
 .item4
     background-color: #37c3a8
 
+@media (max-width: 1200px) 
+    .services
+        &_content
+            padding-top: 50px
+            padding-bottom: 40px
+            // width: 90%
+        &_title
+            padding-top: 20px
+            padding-bottom: 20px
+@media (max-width: 768px)
+    .services
+        &_content
+            padding-top: 40px
+            padding-bottom: 30px
+            width: 90%
+        &_title
+            padding-top: 15px
+            padding-bottom: 15px
