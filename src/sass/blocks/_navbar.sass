@@ -3,9 +3,12 @@
     margin-bottom: 40px
     &-block
         border: 1px solid red
-        display: flex
+        display: contents
+        // display: flex
         justify-content: space-between
         align-items: center
+        padding-left: 0px
+        padding-right: 0px
         
     &_menu
         border: 1px solid black
@@ -15,19 +18,44 @@
         
     &_social
         border: 1px solid black
+    &-social
+        // margin-right: 30px
+        padding-left: 30px
     &_text
-        padding-right: 35px
-        
-
+        padding-right: 30px
+        color: $title-color
+    
         // font-size: larger    
         // верно ли свойство для текста в данной ситуации??? ПЕРЕПРОВЕРЬ, ОЛЯ!!!
         //    justify-content: space-between 
-
-
-
 .menu
     justify-content: space-between
 
 .icon
     padding-left: 25px
+
+@media (max-width: 1200px) 
+    .navbar
+        margin-top: 30px
+        margin-bottom: 30px
+        &-social
+            padding-left: 5px
+        &_text
+            padding-right: 5px
+@media (max-width: 768px)
+    .navbar
+        margin-top: 15px
+        margin-bottom: 15px
+        &_menu
+            display: flex
+            // flex-direction: column
+@media (max-width: 760px)
+    .navbar
+        &_social    
+            display: none
+@media (max-width: 576px)
+    .navbar
+        &_menu
+            display: flex
+            flex-direction: column
 

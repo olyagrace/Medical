@@ -95,9 +95,11 @@ a {
 
 .navbar-block {
   border: 1px solid red;
-  display: flex;
+  display: contents;
   justify-content: space-between;
   align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .navbar_menu {
@@ -111,8 +113,13 @@ a {
   border: 1px solid black;
 }
 
+.navbar-social {
+  padding-left: 30px;
+}
+
 .navbar_text {
-  padding-right: 35px;
+  padding-right: 30px;
+  color: #3a3a3a;
 }
 
 .menu {
@@ -121,6 +128,42 @@ a {
 
 .icon {
   padding-left: 25px;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .navbar-social {
+    padding-left: 5px;
+  }
+  .navbar_text {
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .navbar_menu {
+    display: flex;
+  }
+}
+
+@media (max-width: 760px) {
+  .navbar_social {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar_menu {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .home {
