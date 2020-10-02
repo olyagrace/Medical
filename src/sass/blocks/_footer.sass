@@ -2,17 +2,17 @@ footer
     background-color: #171717
     // background-color: #7acb5f
 .footer
+    &_item
+        // border: 1px solid red
+        padding-bottom: 15px
+        padding-top: 15px  
     &-block
         position: relative
-        // margin-right: auto
-        // margin-left: auto
-        // align-items: center
     &-content
         // display: flex
         // // flex-wrap: wrap
         padding-top: 100px
-        padding-bottom: 50px
-        // justify-content: space-between
+        padding-bottom: 100px 
     &_title
         font-family: 'Montserrat Bold'
         font-size: 20px
@@ -21,11 +21,10 @@ footer
         padding-bottom: 60px
     &-social
         margin-right: 10px 
-        // color: #ffffff
     &_link 
-        // color: #ffffff
         color: #707070
-  
+.social-block
+    margin-bottom: 0
 .row
     display: flex
 .image
@@ -44,21 +43,22 @@ footer
             // margin-left: 30px
             // padding-left: 30px
             // align-items: center
-        &_item
+        &_item1, &_item2, &_item3, &_item4
             display: flex
-            margin-bottom: 50px
             align-items: center
             // transition: 0.3s
+        &_item1, &_item2, &_item3
+            margin-bottom: 50px
             
         &_ico
-            margin-right: 30px
+            margin-right: 20px
 .information
     &_item
         padding-bottom: 15px
         // transition: 0.3s
 .form
     &-content
-        width: 230px
+        // width: 230px
 .input
     display: flex
     // padding-bottom: 25px
@@ -71,7 +71,6 @@ footer
     border-bottom: 1px solid #707070
     background: transparent
     outline: none
-    // transition: 0.3s
     &_text
         height: 100px
         padding-bottom: 70px
@@ -87,23 +86,40 @@ footer
     &_subtitle
         color: #ffffff
 
+@media (max-width: 1200px) 
+    .footer
+        &-content
+            padding-top: 80px
+            padding-bottom: 80px 
+        &_title
+            padding-bottom: 40px
+        &-social
+            margin-right: 5px 
+    .contacts
+        &-list
+            &_item1, &_item2, &_item3 
+                margin-bottom: 30px
+    .input
+        margin-bottom: 15px
 
-    
-// .other
-//     &-content
-//         transition: 0.3s
 
-
-        
-
-
-
-    
-// .triangle
-//     width: 0
-// 	height: 0
-// 	border-left: 50px solid transparent
-// 	border-right: 50px solid transparent
-// 	border-bottom: 100px solid red
-
-//     /
+@media (max-width: 768px)
+    .footer
+        &-content 
+            padding-top: 40px
+            padding-bottom: 40px 
+        &_title
+            padding-bottom: 20px
+        &-social
+            margin-right: 0 
+    .contacts
+        &-list
+            &_item1, &_item2, &_item3 
+                margin-bottom: 20px
+            &_ico
+                margin-right: 10px
+    .information
+        &_item
+            padding-bottom: 10px
+    .input
+        margin-bottom: 10px
