@@ -393,12 +393,32 @@ p {
 .items_title {
   font-family: 'Montserrat Bold';
   font-size: 25px;
+  margin-bottom: 0;
   color: #3a3a3a;
 }
 
 .items_subtitle {
   font-family: 'Montserrat Medium';
   color: #4b4a4a;
+}
+
+.items-block1 {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.items-block2 {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.items-block3 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .content_item {
@@ -410,6 +430,105 @@ p {
   padding-top: 30px;
   padding-right: 40px;
   padding-left: 40px;
+}
+
+@media (max-width: 1200px) {
+  .chooseUs_content {
+    padding-top: 80px;
+  }
+  .main_title {
+    padding-bottom: 25px;
+  }
+  .content_item {
+    margin-top: 40px;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .items-block1 {
+    margin-right: 20px;
+    padding-bottom: 40px;
+  }
+  .items-block2 {
+    margin-left: 20px;
+    padding-bottom: 40px;
+  }
+  .items-head {
+    padding-bottom: 15px;
+  }
+  .main-info {
+    max-width: 80%;
+  }
+  .woman_image {
+    max-width: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .chooseUs_content {
+    padding-top: 60px;
+  }
+  .main-info {
+    max-width: 100%;
+  }
+  .main_title {
+    font-size: 30px;
+  }
+  .items-block1 {
+    margin-right: 0;
+  }
+  .items-block2 {
+    margin-left: 0;
+  }
+  .items-head {
+    padding-bottom: 5px;
+  }
+  .items_image {
+    padding-right: 5px;
+    max-width: 30%;
+  }
+  .items_title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .items-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .items-block1 {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .items-block2 {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content_item {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
+  .items-block1 {
+    padding-bottom: 0;
+  }
+  .items-block2 {
+    padding-bottom: 0;
+  }
+  .items_title {
+    font-size: 25px;
+  }
+  .main_subtitle {
+    padding-bottom: 10px;
+  }
 }
 
 .BestFeature {

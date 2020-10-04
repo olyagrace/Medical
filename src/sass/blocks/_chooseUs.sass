@@ -32,15 +32,26 @@
     &_title
         font-family: 'Montserrat Bold'
         font-size: 25px
+        margin-bottom: 0
         color: $title-color
     &_subtitle
         font-family: 'Montserrat Medium'
         color: $subtitle-color
     &-block1
+        border: 1px solid red
+        display: flex
+        flex-wrap: wrap
+        padding-bottom: 50px
         // margin-right: 230px
     &-block2 
+        border: 1px solid red
+        display: flex
+        flex-wrap: wrap
+        padding-bottom: 50px
         // margin-left: 230px
     &-block3
+        display: flex
+        flex-wrap: wrap
         // padding-top: 30px
 
 .content
@@ -55,3 +66,102 @@
         padding-right: 40px
         padding-left: 40px
         
+@media (max-width: 1200px) 
+    .chooseUs
+        &_content
+            padding-top: 80px
+
+    .main
+        &_title
+            padding-bottom: 25px
+    // &-info
+    //     text-align: center
+    //     max-width: 70%
+    //     margin-left: auto
+    //     margin-right: auto
+    .content
+        &_item
+            margin-top: 40px
+            padding-left: auto
+            padding-right: auto
+    .items
+        &-block1
+            margin-right: 20px
+            padding-bottom: 40px
+        &-block2 
+            margin-left: 20px
+            padding-bottom: 40px
+        // &-block1 
+        &-head
+            padding-bottom: 15px
+            
+
+    .main
+        &-info
+            max-width: 80%
+    .woman
+        &_image
+            max-width: 0
+            padding: 0
+
+@media (max-width: 768px)
+    .chooseUs
+        &_content
+            padding-top: 60px
+    .main
+        &-info
+            max-width: 100%
+        &_title
+            font-size: 30px 
+    .items
+        &-block1
+            margin-right: 0
+        //     padding-bottom: 40px
+        &-block2 
+            margin-left: 0
+        //     padding-bottom: 40px
+        &-head
+            padding-bottom: 5px
+        &_image
+            padding-right: 5px
+            max-width: 30%
+        &_title
+            font-size: 20px
+@media (max-width: 576px)
+    .items
+        &-info
+            display: flex
+            flex-wrap: wrap
+        &-block1
+            margin-top: 0
+            padding-top: 0
+            display: flex
+            flex-wrap: wrap
+        &-block2 
+            margin-top: 0
+            padding-top: 0
+            display: flex
+            flex-wrap: wrap
+    .content
+        &_item
+            margin-top: 0
+            padding-top: 10px
+            padding-bottom: 10px
+            margin-left: auto
+            margin-right: auto
+            max-width: 80%
+
+    .items
+        &-block1
+            // margin-right: 20px
+            padding-bottom: 0
+        &-block2 
+            // margin-left: 20px
+            padding-bottom: 0
+        &_title
+            font-size: 25px
+
+    .main
+        &_subtitle
+            padding-bottom: 10px 
+            
