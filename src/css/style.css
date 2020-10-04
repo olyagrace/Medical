@@ -183,7 +183,7 @@ a {
 }
 
 .home {
-  background: url("/Users/olgamelnikovic/Desktop/Projects/Medical/src/img/home/doctor-background.jpg");
+  background: url("../src/img/home/doctor-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
