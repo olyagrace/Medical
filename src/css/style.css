@@ -175,7 +175,6 @@ a {
 }
 
 .home {
-  background: url("../src/img/home/doctor-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -238,7 +237,8 @@ p {
 
 @media (max-width: 1200px) {
   .home {
-    background: none;
+    background-image: none;
+    style: none;
     background-color: #e2e2e2;
   }
   .home-block {
