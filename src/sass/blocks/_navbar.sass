@@ -1,7 +1,12 @@
 .navbar 
     margin-top: 20px
     margin-bottom: 20px
-
+    background-color: $main-color
+    
+    // background-color: #ff6f
+    // /* width: 100%; */ 
+    // top: 0
+    // position: sticky
 
     &-block
         // border: 1px solid red 
@@ -21,6 +26,9 @@
         
     &_social
         // border: 1px solid black
+        a:hover
+            // font-size: 18px
+            text-decoration: none 
     &-social
         // margin-right: 30px
         padding-left: 30px
@@ -33,9 +41,16 @@
         //    justify-content: space-between 
 .menu
     justify-content: space-between
+    a:hover
+        color: $button-color
+        // font-size: 20px
+        text-decoration: none
 
 .icon
     padding-left: 25px
+
+
+
 
 @media (max-width: 1200px) 
     .navbar

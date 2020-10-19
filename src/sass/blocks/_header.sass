@@ -3,6 +3,8 @@
     // padding-bottom: 25px
     &_link
         color: $title-color
+ 
+
     &-block
         display: flex
         align-items: center
@@ -19,18 +21,22 @@
         // align-items: center
         &_ico
             padding-right: 5px
-        &_text
+        &__text
             // color: $title-color
             // color: red 
             // font-family: 'Montserrat Bold'   
+            a:hover
+                color: $button-color
+                text-decoration: none 
+            span:hover 
+                color: $button-color
         &_item
             display: flex
             flex-wrap: wrap
             // border: 1px solid red 
             align-items: center
             padding-right: 0
-            padding-left: 0
-        
+            padding-left: 0       
 .col
     padding-right: 0        
         

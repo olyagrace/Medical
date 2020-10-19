@@ -13,6 +13,11 @@ footer
         // // flex-wrap: wrap
         padding-top: 100px
         padding-bottom: 100px 
+        li a:hover
+                color: $button-color
+                text-decoration: none 
+        li span:hover
+                color: $button-color
     &_title
         font-family: 'Montserrat Bold'
         font-size: 20px
@@ -78,13 +83,18 @@ footer
     &_button
         height: 45px
         width: 165px
-        background-color: #1a9bdc
+        background-color: $button-color
         border: none
         border-radius: 50px
         font-family: 'Montserrat Medium'
+        a:hover
+            text-decoration: none
 .button
     &_subtitle
         color: #ffffff
+button:hover 
+    background-color: $button-color2
+    animation-delay: 0.2s
 
 @media (max-width: 1200px) 
     .footer
