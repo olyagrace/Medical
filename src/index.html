@@ -64,7 +64,8 @@
                 <!-- /.header-list -->
 
             </div>
-        
+            <div class="header_line"></div>
+        </section>
     </header>
     <!-- блок header конец -->
 
@@ -77,12 +78,12 @@
         <div class="container menu">
             <div class="navbar-block col-xl-12 col-lg-12 col-md-12 col-sm-6 col-12">
                 <div class="navbar_menu">
-                    <a href="#" class="navbar_text ">Home</a>
-                    <a href="#" class="navbar_text">About</a>
-                    <a href="#" class="navbar_text">Services</a>
-                    <a href="#" class="navbar_text">Gallery</a>
-                    <a href="#" class="navbar_text">Blog</a>
-                    <a href="#" class="navbar_text">Contact us</a>
+                    <a href="#Home" class="navbar_text ">Home</a> 
+                    <a href="#About" class="navbar_text">About</a>
+                    <a href="#Services" class="navbar_text">Services</a>
+                    <a href="#Gallery" class="navbar_text">Gallery</a>
+                    <a href="#Blog" class="navbar_text">Blog</a>
+                    <a href="#ContactUs" class="navbar_text">Contact us</a>
                 </div>
                 <!-- /.navbar_menu -->
                 <div class="navbar_social">
@@ -112,7 +113,7 @@
     <!-- /.navbar --> 
 
 
-    <section class="home" style="background-image: url('../src/img/home/doctor-background.jpg');">
+    <section id="Home" class="home" style="background-image: url('../src/img/home/doctor-background.jpg');">
 
         <div class="container home-area">
             <!-- <img class="home_image" src="../src/img/home/doctor-background.jpg" alt=""> -->
@@ -120,9 +121,16 @@
                 <!-- <img class="home_image" src="../src/img/home/doctor-background.jpg" alt=""> -->
                 <h1 class="home_title">We have Best Medicare plan options for you</h1>
                 <span class="home_subtitle" >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</span>
-                <button class="home_button">
+                <!-- <a class="home_button" href="#">
+                    <div class="button_subtitle">READ MORE</div>
+                </a> -->
+                <a class="button_subtitle" href="https://www.google.com.ua" target="_blank">
+                    <button class="home_button">READ MORE</button>
+                </a>
+                
+                <!-- <button class="home_button">
                 <a class="button_subtitle" href="#">READ MORE</a>
-                </button>
+                </button> -->
                 
            </div>
            <!-- /.home-block -->
@@ -135,7 +143,7 @@
 
 
 
-    <section class="services">
+    <section id="Services" class="services">
         <div class="services-block">
             <div class="services-block_item item1 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="services_content">
@@ -190,7 +198,7 @@
     <!-- /.services -->
 
 
-    <section class="chooseUs information-block">
+    <section id="About" class="chooseUs information-block">
         <div class="container">
             <div class="content">
                 <div class="chooseUs_content">
@@ -316,7 +324,7 @@
     <!-- /.BestFeature --> 
 
 
-    <section class="Gallery">
+    <section id="Gallery" class="Gallery">
         <div class="container">
             <div class="Gallery-content">
                 <div class="text-area">
@@ -346,7 +354,7 @@
     </section>
     <!-- /.Gallery -->
 
-    <section class="OurDoctor">
+    <section id="ContactUs" class="OurDoctor">
         <div class="container">
             <div class="OurDoctor-content">
                 <div class="text-area">
@@ -438,7 +446,7 @@
 
 
     <!-- Footer block -->
-    <footer> 
+    <footer id="Blog"> 
         <div class="container">
             <div class="footer-content row">
 
@@ -583,9 +591,15 @@
                                 <input type="text" class="input brif_input" placeholder="Name">
                                 <input type="text" class="input brif_input" placeholder="Phone">
                                 <input type="text" class="input brif_input input_text" placeholder="Message">
+
+                                <!-- <a href="#" class="button_subtitle">
+                                    <button class="brif_button">SUBMIT</button>
+                                </a> -->
+
                                 <button class="brif_button">
                                     <a href="#" class="button_subtitle">SUBMIT</a>
                                 </button>
+                                
                             </form>
                         </div>
                     </div>

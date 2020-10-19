@@ -41,7 +41,6 @@ a {
 
 .header {
   padding-top: 35px;
-  padding-bottom: 25px;
 }
 
 .header_link {
@@ -52,6 +51,11 @@ a {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.header_line {
+  border: 1px solid #ececec;
 }
 
 .header-list {
@@ -103,8 +107,8 @@ a {
 }
 
 .navbar {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar-block {
@@ -205,7 +209,6 @@ a {
 }
 
 .home-block {
-  display: flex;
   flex-wrap: wrap;
   max-width: 50%;
   text-align: center;
@@ -223,6 +226,7 @@ a {
   border: none;
   border-radius: 50px;
   font-family: 'Montserrat Medium';
+  color: #ffffff;
 }
 
 .home_button_subtitle {
